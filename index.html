@@ -64,6 +64,50 @@
                   <use href="./images/symbol-defs-opt.svg#close-black"></use>
                 </svg>
               </button>
+              <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+              <form class="modal-form">
+                <ul class="modal-list">
+                  <li class="modal-list-element">
+                    <label class="list-lable" for="name">Имя</label>
+                    <input class="modal-input" type="text" name="name" id="name" />
+
+                    <svg class="modal-list-icon" width="20px" height="20px">
+                      <use href="./images/symbol-defs-opt.svg#person-black"></use>
+                    </svg>
+                  </li>
+                  <li class="modal-list-element">
+                    <label class="list-lable" for="phone">Телефон</label>
+                    <input class="modal-input" type="tel" name="phone" id="phone" />
+                    <svg class="modal-list-icon" width="20px" height="20px">
+                      <use href="./images/symbol-defs-opt.svg#phone-black"></use>
+                    </svg>
+                  </li>
+                  <li class="modal-list-element">
+                    <label class="list-lable" for="mail">Почта</label>
+                    <input class="modal-input" type="email" name="mail" id="mail" />
+                    <svg class="modal-list-icon" width="20px" height="20px">
+                      <use href="./images/symbol-defs-opt.svg#email-black"></use>
+                    </svg>
+                  </li>
+                  <li class="modal-list-element">
+                    <label class="list-lable" for="coment">Комментарий</label>
+                    <input
+                      type="text"
+                      class="coment"
+                      name="coment"
+                      id="coment"
+                      placeholder="Введите текст"
+                    />
+                  </li>
+                </ul>
+                <label class="agreement">
+                  <input type="checkbox" name="checkbox" class="modal-checkbox" />
+                  <span class="checkbox-decor"></span>
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="" class="agreement-link"> Условия договора </a>
+                </label>
+                <button class="modal-button" type="submit">Отправить</button>
+              </form>
             </div>
           </div>
         </div>
