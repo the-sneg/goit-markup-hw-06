@@ -251,11 +251,11 @@ img {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  background-image: url(../check/checkbox.svg);
+  background-image: url(../images/checkbox.svg);
 }
 
 .modal-checkbox:checked + .checkbox-decor {
-  background-image: url(../check/check-with-bg.svg);
+  background-image: url(../images/check.svg);
 }
 
 .modal-checkbox:focus + .checkbox-decor {
@@ -913,4 +913,25 @@ header {
 .subscribe-button {
   width: 200px;
   height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  margin-left: 12px;
+  padding: 10px 29px;
+}
+
+.subscribe-icon {
+  margin-left: 10px;
 }
